@@ -1,0 +1,307 @@
+{
+  "index": 1,
+  "name": "Algoritma",
+  "detail": "Pelajari bagaimana cara mesin pencarian bekerja: mencari dan mengurutkan segala informasi dengan algoritma.",
+  "image": "",
+  "color": "",
+  "section": [
+    {
+      "index": 1,
+      "title": "Algoritma",
+      "total": 9,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "content": "Mari belajar dari satiuasi nyata. Kita memiliki dua gelas, satu terisi dengan air, dan yang lain dengan soda. Bagaimana cara menukar cairan dalam gelas? Kelihatannya tidak mungkin melakukannya tanpa mencampur keduanya bukan?",
+          "image": "",
+          "code": [],
+          "output": [],
+          "note": "Oke lanjut",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 2,
+          "type": 1,
+          "content": "Jika kita ingin menukar cairan, kita membutuhkan gelas kosong sementara.",
+          "code": ["1.|air|", "2. |soda|"],
+          "output": {
+            "type": "script.js",
+            "text": ["1.|air|", "2. |soda|, 3.|___|"]
+          },
+          "choice": [{ "index": 1, "text": "3.|____|" }],
+          "question": "",
+          "note": "Cara dapat menambahkan sebuah konten dari salah satu container ke container lainnya. Kita akan melakukannya terus menerus sampai kita menukar semua cairannya.",
+          "answer": "1"
+        },
+        {
+          "index": 3,
+          "type": 1,
+          "content": "Sekarang kita dapat menuangkan cairan dari salah satu gelas ke gelas yang kosong. Mari mengosongkan gelas pertama ke gelas ketiga.",
+          "code": ["1.| _ |", "2.|soda|", "3.| _ |"],
+          "question": "Tanda _ dapat diganti dengan...",
+          "choice": [
+            {
+              "index": 1,
+              "text": "air"
+            },
+            {
+              "index": 2,
+              "text": "____"
+            }
+          ],
+          "output": {
+            "type": "script.js",
+            "text": ["1.|___|", "2.|soda|", "3.|air|"]
+          },
+          "image": "",
+          "answer": "21",
+          "note": "Bagus!"
+        },
+        {
+          "index": 4,
+          "type": 1,
+          "content": "Berikutnya, kita akan menambahkan isi dari gelas kedua ke gelas pertama.",
+          "code": ["1.| _ |", "2.| _ |", "3.|air|"],
+          "question": "Tanda _ dapat diganti dengan...",
+          "choice": [
+            {
+              "index": 1,
+              "text": "____"
+            },
+            {
+              "index": 2,
+              "text": "soda"
+            }
+          ],
+          "output": {
+            "type": "script.js",
+            "text": ["1.|soda|", "2.|___|", "3.|air|"]
+          },
+          "image": "",
+          "answer": "21",
+          "note": "Bagus!"
+        },
+        {
+          "index": 5,
+          "type": 1,
+          "image": "",
+          "content": "Terakhir, kita akan menambahkan air dari gelas ketiga ke gelas kedua dan selesai!",
+          "code": ["1.|soda|", "2.| _ |", "3.| _ |"],
+          "question": "Tanda _ dapat diganti dengan...",
+          "choice": [{ "index": 1, "text": "____" }, { "index": 2, "text": "air" }],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ["1.|soda|", "2.|air|", "3.|____|"]
+            }
+          ],
+          "answer": "21",
+          "note": "Kita telah berhasil menukar isi dari kedua gelas."
+        },
+        {
+          "index": 6,
+          "type": 2,
+          "image": "",
+          "content": "Kita baru saja melewati sebuah algoritma: sebuah kumpulan instruksi dalam sebauh urutan yang menghasilkan sebuah tugas.",
+          "question": "Mari mengurutkan algoritma ini untuk menghasilkan 1,2 dan 3",
+          "code": [],
+          "choice": [
+            {
+              "index": 1,
+              "text": "print(\"3\")"
+            },
+            {
+              "index": 2,
+              "text": "print(\"1\")"
+            },
+            {
+              "index": 3,
+              "text": "print(\"2\")"
+            }
+          ],
+          "output": ["1", "2", "3"],
+          "answer": "231",
+          "note": "Bagus!"
+        },
+        {
+          "index": 7,
+          "type": 1,
+          "image": "",
+          "content": "Beginilah contoh bagaimana menulis algoritma dalam bahasa pemrograman yang dikenal sebagai python.",
+          "question": "Tanda _ dapat diganti dengan...",
+          "code": [
+            "gelas_1 = \"air\"",
+            "gelas_2 = \"soda\"",
+            "temp = gelas_2",
+            "gelas_2 = _",
+            "print('gelas_1 = ' + str(gelas_1))",
+            "print('gelas_2 = ' + str (gelas_2))"
+          ],
+          "choice": [
+            {
+              "index": 1,
+              "text": "temp"
+            }
+          ],
+          "answer": "1",
+          "output": [
+            {
+              "type": "script.python",
+              "text": [
+                "gelas_1 = \"air\"",
+                "gelas_2 = \"soda\"",
+                "temp = gelas_2",
+                "gelas_2 = _",
+                "print('gelas_1 = ' + str(gelas_1))",
+                "print('gelas_2 = ' + str (gelas_2))"
+              ]
+            }
+          ],
+          "note": "Jangan khawatir dengan kode diatas. Kita akan mempelajarinya langkah perlangkah dalam bab selanjutnya."
+        },
+        {
+          "index": 8,
+          "type": 1,
+          "image": "",
+          "content": "Algoritma memiliki banyak cara. Sebagai contoh ini adalah algoritma mengurutkan yang memakai teknik menukar.",
+          "code": [
+            "arr = [3,7,1,4,9,2,5]",
+            "lenth = len(arr)",
+            "for i in range(length):",
+            "for j in range(0, length-i-1):",
+            "if arr[j] > arr[j+1] :",
+            "_ = arr[j]",
+            "att[j] = arr[j+1]",
+            "arr[j+1] = temp",
+            "print(arr)"
+          ],
+          "question": "Tanda _ dapat diganti dengan...",
+          "choice": [
+            {
+              "index": 1,
+              "text": "temp"
+            }
+          ],
+          "answer": "1",
+          "output": [
+            {
+              "type": "script.python",
+              "text": [
+                {
+                  "type": "output",
+                  "text": "[1,2,3,4,5,7,9]"
+                }
+              ]
+            }
+          ],
+          "note": "Lihat bagaimana teknik menukar sangat berguna untuk pemrograman."
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "content": "Untuk sekarang akan fokus pada dua tipe algoritma yaitu saerching dan sorting. Dua masalah fundamental dalam ilmu komputer. mari melakukannya!",
+          "code": [],
+          "image": "",
+          "question": "",
+          "answer": "",
+          "choice": [],
+          "output": [],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "Latihan Algoritma",
+      "total": 9,
+      "data": [
+        {
+          "index": 1,
+          "type": 1,
+          "image": "",
+          "content": "Waktunya kita berlatih, Kita akan melakukannya dengan menukar nilai antara dua variabel.",
+          "code": [],
+          "question": "",
+          "answer": "",
+          "choice": [],
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 2,
+          "type": 1,
+          "image": "",
+          "content": "Mari memulai dengan membuat variabel.",
+          "code": ["_"],
+          "question": "Tanda _ dapat diganti dengan...",
+          "choice": [
+            {
+              "index": 1,
+              "text": "var_1 = 5"
+            }
+          ],
+          "answer": "1",
+          "output": [],
+          "note": "Bagus, ini adalah variabel pertama dari dua variabel yang akan kita tukar nilainya."
+        },
+        {
+          "index": 3,
+          "type": 1,
+          "content": "Tambahkan variabel kedua. var_2, kita akan set nilai variabel tersebut manjadi 10.",
+          "code": ["var_1 = 5", "_ _ _"],
+          "image": "",
+          "question": "Tanda _ dapat diganti dengan...",
+          "choice": [
+            {
+              "index": 1,
+              "text": "var_2"
+            },
+            {
+              "index": 2,
+              "text": "10"
+            },
+            {
+              "index": 3,
+              "text": "="
+            }
+          ],
+          "answer": "132",
+          "output": [],
+          "note": "Bagus! Kita akan menukar nilai dari kedua variabel tersebut."
+        },
+        {
+          "index": 4,
+          "type": 1,
+          "image": "",
+          "content": "Sekarang buat nilai sementara. Apa nama variabel yang cocok dalam kasus ini?",
+          "code": ["var_1 = 5", "var_2 = 10", "_"],
+          "question": "Tanda _ dapat diganti dengan...",
+          "choice": [
+            {
+              "index": 1,
+              "text": "p"
+            },
+            {
+              "index": 2,
+              "text": "m"
+            },
+            {
+              "index": 3,
+              "text": "t"
+            },
+            {
+              "index": 4,
+              "text": "e"
+            }
+          ],
+          "answer": "3421",
+          "output": [],
+          "note": "Benar"
+        }
+      ]
+    }
+  ]
+}
