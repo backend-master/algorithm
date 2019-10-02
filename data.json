@@ -300,6 +300,145 @@
           "answer": "3421",
           "output": [],
           "note": "Benar"
+        },
+        {
+          "index": 5,
+          "type": 1,
+          "image": "",
+          "content": "Kita akan menukar nilai dari var_1 dan var_2. Untuk melakukanya, tambahkan nilai dari var_1 kedalam variabel temp.",
+          "code": ["var_1 = 5", "var_2 = 10", "temp _ _"],
+          "question": "Tanda _ dapat diganti dengan...",
+          "choice": [
+            {
+              "index": 1,
+              "text": "var_1"
+            },
+            {
+              "index": 2,
+              "text": "="
+            }
+          ],
+          "answer": "21",
+          "output": [],
+          "note": "Benar!"
+        },
+        {
+          "index": 6,
+          "type": 1,
+          "image": "",
+          "content": "Tambahkan statement print untuk var_1, lalu untuk var_2 dan untuk temp.",
+          "code": [
+            "var_1 = 5",
+            "var_2 = 10",
+            "temp = var_1",
+            "print('var_1 = ' + str(_))",
+            "print('var_2 = ' + str(_))",
+            "print('temp = ' + str(_))"
+          ],
+          "question": "Tanda _ dapat diganti dengan...",
+          "choice": [
+            {
+              "index": 1,
+              "text": "var_1"
+            },
+            {
+              "index": 2,
+              "text": "temp"
+            },
+            {
+              "index": 3,
+              "text": "var_2"
+            }
+          ],
+          "answer": "132",
+          "output": [
+            {
+              "type": "script.python",
+              "text": ["var_1 = 5", "var_ 2 = 10", "temp = 5"]
+            }
+          ],
+          "note": "Benar! Sekarang kita dapat melihat perkembangan algoritma kita. Lihat bagaimana var_1 dan temp memilki nilai yang sama yaitu 5."
+        },
+        {
+          "index": 7,
+          "type": 1,
+          "image": "",
+          "content": "Buat var satu agar memilki nilai dari var_2",
+          "code": ["var_1 = 5", "var_2 = 10", "temp = var_1", "_ _ _", "....."],
+          "question": "Tanda _ dapat diganti dengan...",
+          "choice": [
+            {
+              "index": 1,
+              "text": "="
+            },
+            {
+              "index": 2,
+              "text": "var_1"
+            },
+            {
+              "index": 3,
+              "text": "var_2"
+            }
+          ],
+          "answer": "213",
+          "output": [
+            {
+              "type": "script.python",
+              "text": ["var_1 = 10", "var_ 2 = 10", "temp = 5"]
+            }
+          ],
+          "note": "Bagus! Kita telah berhasil menyamakan nilai dari var_1 dan var_2."
+        },
+        {
+          "index": 8,
+          "type": 1,
+          "image": "",
+          "content": "Buat var_2 agar memilki nilai dari var_1",
+          "code": ["var_1 = 5", "var_2 = 10", "temp = var_1", "var_1 = var_2", "_ _ _", "....."],
+          "question": "Tanda _ dapat diganti dengan...",
+          "choice": [
+            {
+              "index": 1,
+              "text": "var_2"
+            },
+            {
+              "index": 2,
+              "text": "temp"
+            },
+            {
+              "index": 3,
+              "text": "="
+            }
+          ],
+          "answer": "132",
+          "output": [
+            {
+              "type": "script.python",
+              "text": ["var_1 = 10", "var_2 = 5", "temp = 5"]
+            }
+          ],
+          "note": "Benar! Sekarang kita telah berhasil menukar nilai dari dua variabel."
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "image": "",
+          "content": "Ini adalah nilai akhir. Soal ini mungkin terlihat simple, tapi ini adalah dasar untuk membuat algoritma.",
+          "code": [
+            "var_1 = 5",
+            "var_2 = 10",
+            "temp = var_1",
+            "var_1 = var_2",
+            "var_2 = temp",
+            "print('var_1 = ' + str(var_1))",
+            "print('var_2 = ' + str(var_2))",
+            "print('temp = ' + str(temp))"
+          ],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": "Kerja bagus!"
         }
       ]
     }
