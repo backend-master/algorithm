@@ -24,7 +24,7 @@
         },
         {
           "index": 2,
-          "type": 1,
+          "type": 0,
           "content": "Jika kita ingin menukar cairan, kita membutuhkan gelas kosong sementara.",
           "code": ["1.|air|", "2. |soda|"],
           "output": {
@@ -38,7 +38,7 @@
         },
         {
           "index": 3,
-          "type": 1,
+          "type": 0,
           "content": "Sekarang kita dapat menuangkan cairan dari salah satu gelas ke gelas yang kosong. Mari mengosongkan gelas pertama ke gelas ketiga.",
           "code": ["1.| _ |", "2.|soda|", "3.| _ |"],
           "question": "Tanda _ dapat diganti dengan...",
@@ -62,7 +62,7 @@
         },
         {
           "index": 4,
-          "type": 1,
+          "type": 0,
           "content": "Berikutnya, kita akan menambahkan isi dari gelas kedua ke gelas pertama.",
           "code": ["1.| _ |", "2.| _ |", "3.|air|"],
           "question": "Tanda _ dapat diganti dengan...",
@@ -86,7 +86,7 @@
         },
         {
           "index": 5,
-          "type": 1,
+          "type": 0,
           "image": "",
           "content": "Terakhir, kita akan menambahkan air dari gelas ketiga ke gelas kedua dan selesai!",
           "code": ["1.|soda|", "2.| _ |", "3.| _ |"],
@@ -103,7 +103,7 @@
         },
         {
           "index": 6,
-          "type": 2,
+          "type": 3,
           "image": "",
           "content": "Kita baru saja melewati sebuah algoritma: sebuah kumpulan instruksi dalam sebauh urutan yang menghasilkan sebuah tugas.",
           "question": "Mari mengurutkan algoritma ini untuk menghasilkan 1,2 dan 3",
@@ -128,7 +128,7 @@
         },
         {
           "index": 7,
-          "type": 1,
+          "type": 0,
           "image": "",
           "content": "Beginilah contoh bagaimana menulis algoritma dalam bahasa pemrograman yang dikenal sebagai python.",
           "question": "Tanda _ dapat diganti dengan...",
@@ -164,7 +164,7 @@
         },
         {
           "index": 8,
-          "type": 1,
+          "type": 0,
           "image": "",
           "content": "Algoritma memiliki banyak cara. Sebagai contoh ini adalah algoritma mengurutkan yang memakai teknik menukar.",
           "code": [
@@ -220,7 +220,7 @@
       "data": [
         {
           "index": 1,
-          "type": 1,
+          "type": 0,
           "image": "",
           "content": "Waktunya kita berlatih, Kita akan melakukannya dengan menukar nilai antara dua variabel.",
           "code": [],
@@ -232,7 +232,7 @@
         },
         {
           "index": 2,
-          "type": 1,
+          "type": 0,
           "image": "",
           "content": "Mari memulai dengan membuat variabel.",
           "code": ["_"],
@@ -249,7 +249,7 @@
         },
         {
           "index": 3,
-          "type": 1,
+          "type": 0,
           "content": "Tambahkan variabel kedua. var_2, kita akan set nilai variabel tersebut manjadi 10.",
           "code": ["var_1 = 5", "_ _ _"],
           "image": "",
@@ -274,7 +274,7 @@
         },
         {
           "index": 4,
-          "type": 1,
+          "type": 0,
           "image": "",
           "content": "Sekarang buat nilai sementara. Apa nama variabel yang cocok dalam kasus ini?",
           "code": ["var_1 = 5", "var_2 = 10", "_"],
@@ -303,7 +303,7 @@
         },
         {
           "index": 5,
-          "type": 1,
+          "type": 0,
           "image": "",
           "content": "Kita akan menukar nilai dari var_1 dan var_2. Untuk melakukanya, tambahkan nilai dari var_1 kedalam variabel temp.",
           "code": ["var_1 = 5", "var_2 = 10", "temp _ _"],
@@ -324,7 +324,7 @@
         },
         {
           "index": 6,
-          "type": 1,
+          "type": 0,
           "image": "",
           "content": "Tambahkan statement print untuk var_1, lalu untuk var_2 dan untuk temp.",
           "code": [
@@ -361,7 +361,7 @@
         },
         {
           "index": 7,
-          "type": 1,
+          "type": 0,
           "image": "",
           "content": "Buat var satu agar memilki nilai dari var_2",
           "code": ["var_1 = 5", "var_2 = 10", "temp = var_1", "_ _ _", "....."],
@@ -391,7 +391,7 @@
         },
         {
           "index": 8,
-          "type": 1,
+          "type": 0,
           "image": "",
           "content": "Buat var_2 agar memilki nilai dari var_1",
           "code": ["var_1 = 5", "var_2 = 10", "temp = var_1", "var_1 = var_2", "_ _ _", "....."],
@@ -439,6 +439,155 @@
           "answer": "",
           "output": [],
           "note": "Kerja bagus!"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "Ulasan Algoritma",
+      "total": 7,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "image": "",
+          "content": "Mari melihat kembali apa yang telah kita pelajari tentang algoritma sejauh ini.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 2,
+          "type": 4,
+          "image": "",
+          "content": "Apa itu algoritma?",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Kumpulan instruksi dalam urutan yang spesifik untuk menghasilkan suatu tugas untuk komputer."
+            },
+            {
+              "index": 2,
+              "text": "Instuksi yang dikumpulkan."
+            }
+          ],
+          "answer": "1",
+          "code": [],
+          "output": [],
+          "note": "Benar!"
+        },
+        {
+          "index": 3,
+          "type": 4,
+          "image": "",
+          "content": "Mana dibawah ini yang merupakan bagian dari algoritma?",
+          "code": [],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Pencarian (searching) dan penyortiran (sorting). "
+            },
+            {
+              "index": 2,
+              "text": "Pembagian dan perkalian."
+            }
+          ],
+          "answer": "1",
+          "output": [],
+          "note": "Bagus!"
+        },
+        {
+          "index": 4,
+          "type": 4,
+          "image": "",
+          "content": "Manakah yang merupakan masalah fundamental dari pemrograman?",
+          "code": [],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Masalah tawar menawar."
+            },
+            {
+              "index": 2,
+              "text": "Masalah tukar menukar"
+            }
+          ],
+          "answer": "2",
+          "output": [],
+          "note": "Betul"
+        },
+        {
+          "index": 5,
+          "type": 4,
+          "image": "",
+          "content": "Jika kita ingin menukar cairan antara gelas 1 dan 2. Apa langkah pertama yang perlu dikakukan?",
+          "code": ["1.|air|", "2. |soda|", "3.|___|"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Tukar gelas 1 dan 2"
+            },
+            {
+              "index": 2,
+              "text": "Tukar gelas 1 dan 3"
+            }
+          ],
+          "answer": "2",
+          "output": [],
+          "note": "Benar!"
+        },
+        {
+          "index": 6,
+          "type": 4,
+          "image": "",
+          "content": "Kemudian, apa langkah kedua?",
+          "code": ["1.| _ |", "2. |soda|", "3.|air|"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Tukar gelas 1 dan 2"
+            },
+            {
+              "index": 2,
+              "text": "Tukar gelas 1 dan 3"
+            }
+          ],
+          "answer": "1",
+          "output": [],
+          "note": "Benar!"
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "image": "",
+          "content": "Setelah langkah ketiga dan terakhir, apa yang akan terisi disetiap gelas?",
+          "code": ["1.| _ |", "2.| _ |", "3.| _ |"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "___"
+            },
+            {
+              "index": 2,
+              "text": "soda"
+            },
+            {
+              "index": 3,
+              "text": "air"
+            }
+          ],
+          "answer": "231",
+          "output": [],
+          "note": "Benar!"
         }
       ]
     }
