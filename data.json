@@ -590,6 +590,2450 @@
           "note": "Benar!"
         }
       ]
+    },
+    {
+      "index": 4,
+      "title": "Linear Search",
+      "total": 14,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "image": "",
+          "content": "Algoritma sangat penting untuk mencari data dengan efisien, dan data tidak berguna jika kita tidak dapat mencarinya. Lagipula, apakah kamu ingin mencari data tanpa mesin pencarian?",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "image": "",
+          "content": "Kita biasanya mencari berdasarkan koleksi data yang memilki struktur. Contohnya seperti sebuah daftar. Daftar adalah rentetan nilai. Seperti daftar belanja anda, komputer akan melihat daftar satu persatu.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "image": "",
+          "content": "Namun, komputer tidak dapat melihat semua daftar secara bersamaan. Komputer akan melihat satu daftar. Oleh karena itu, penomoran butir daftar sangat penting.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 4,
+          "type": 0,
+          "image": "",
+          "content": "Posisi suatu nilai pada suatu daftar dapat disebut index. Kita andaikan index sebagai suatu alamat. Jika nomor biasanya dimualai dari angka 1, index dimulai dari angka 0. Itu berarti posisi terakhir dari index adalah panjang daftar  dikurangi 1. Jika ada 4 daftar maka index terakhirnya adalah 3.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 5,
+          "type": 0,
+          "image": "",
+          "content": "Kita dapat menggunakan index untuk mencari data dalam daftar. Salah satu cara paling sederhana untuk melakukan algortima pencarian adalah linear search. Cara kerja linear search adalah kita akan mencari nilai satu persatu dan cek apakah value tersebut seperti yang kita inginkan.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "image": "",
+          "content": "Mari menggunakan linear search untuk mencari nomor 4 dalam sebuah dafatar. Yang pertama kali kita lakukan adalah cek apa yang terdapat pada index ke-0. Lalu bandingkan nilainya pada angka 4.",
+          "code": ["print(5 === 4)"],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [
+            {
+              "type": "output",
+              "text": "False"
+            }
+          ],
+          "note": "Nilainya adalah 5, dan yang kita bandingkan adalah 4. Ini bukan nilai yang kita inginkan."
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "image": "",
+          "content": "Karena nilai pada index ke-0 tidak sama dangan 4, kita akan cek nilai pada index selanjutnya. Nilai pada index 1 adalah 3. Mari kita cek, apakah 3 sama dengan 4.",
+          "code": ["print(3 == 4)"],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [
+            {
+              "type": "output",
+              "text": "False"
+            }
+          ],
+          "note": "3 tidak sama dengan 4, mari cari lagi."
+        },
+        {
+          "index": 8,
+          "type": 0,
+          "image": "",
+          "content": "Pada saat pencarian ketiga, indexnya adalah 2 dan memiliki nilai 4. Dapatkah kamu menebak hasil dari perbandingan tersebut.",
+          "code": ["print(4 == 4)"],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [
+            {
+              "type": "output",
+              "text": "true"
+            }
+          ],
+          "note": "4 sama dengan 4. Kita telah mendapatkan pemenangnya."
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "image": "",
+          "content": "Dalam Python, membauat sebuah daftar sangat sederhana. Kita hanya perlu mmemberikan nama variabel beserta nilai-nilainya dalam sebuah tanda kurung kotak dan dipishakan oleh koma.",
+          "code": ["_ = _5_3,2,7_ "],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ","
+            },
+            {
+              "index": 2,
+              "text": "values"
+            },
+            {
+              "index": 3,
+              "text": "]"
+            },
+            {
+              "index": 4,
+              "text": "["
+            }
+          ],
+          "answer": "2413",
+          "output": [],
+          "note": "Benar! Kita akan menggunakan daftar lebih sering pada algoritma."
+        },
+        {
+          "index": 10,
+          "type": 0,
+          "image": "",
+          "content": "Kita dapat menggunakan index untuk mengakses nilai yang spesifik pada sebuah daftar. Kita hanya perlu memberikan nama daftar beserta nilai-nilainya didalam tanda kurung kotak.",
+          "code": ["values = [ 5, 3, 2, 7,9 ]", "print(_)", "print(values[2])", "print(values[4])"],
+          "question": "Mari melengkapi potongan kode ini.",
+          "choice": [
+            {
+              "index": 1,
+              "text": "]"
+            },
+            {
+              "index": 2,
+              "text": "values"
+            },
+            {
+              "index": 3,
+              "text": "0"
+            },
+            {
+              "index": 4,
+              "text": "["
+            }
+          ],
+          "answer": "2431",
+          "output": [
+            {
+              "type": "output",
+              "text": [5, 2, 9]
+            }
+          ],
+          "note": "Benar! Lihat bagaimana kita memunculkan nilai - nilai pada posisi 0, 2 dan 4 hanya menggunakan index"
+        },
+        {
+          "index": 11,
+          "type": 0,
+          "image": "",
+          "content": "Untuk melihat setiap posisi dalam sebuah daftar, kita menggunakan loop. Kita akan menggunakan loop dan mencari nilai dengan angka 2.",
+          "code": ["values = [ 5, 3, 2, 7 ]", "target = 2", "_", "if values[i] == target:", "print(i)"],
+          "question": "Mari melengkapi potongan kode ini.",
+          "choice": [
+            {
+              "index": 1,
+              "text": "for i in range(len(values)):"
+            }
+          ],
+          "answer": "1",
+          "output": [
+            {
+              "type": "output",
+              "text": [2]
+            }
+          ],
+          "note": "Benar! Kita akan menggunakan loop untuk memeriksa setiap item dalam sebuah daftar."
+        },
+        {
+          "index": 12,
+          "type": 0,
+          "image": "",
+          "content": "Kita akan menggunakan fungsi len untuk mendapatkan panjang dari sebuah daftar. Sehingga loop tahu kapan harus berhenti.",
+          "code": ["values = [ 5, 3, 2, 7 ]", "target = 2", "for i in range(_)", "if values[i] == target:", "print(i)"],
+          "question": "Mari melengkapi potongan kode ini.",
+          "choice": [
+            {
+              "index": 1,
+              "text": "len(values)"
+            }
+          ],
+          "answer": "1",
+          "output": [
+            {
+              "type": "output",
+              "text": [2]
+            }
+          ],
+          "note": "Benar!"
+        },
+        {
+          "index": 13,
+          "type": 0,
+          "image": "",
+          "content": "Pernyataan if akan memeriksa apakah nilai dalam values[i] sama dengan target.",
+          "code": ["values = [ 5, 3, 2, 7 ]", "target = 2", "for i in range(len(values))", "_ _", "print(i)"],
+          "question": "Mari melengkapi potongan kode ini.",
+          "choice": [
+            {
+              "index": 1,
+              "text": "values[i] == target"
+            },
+            {
+              "index": 2,
+              "text": "if"
+            }
+          ],
+          "answer": "21",
+          "output": [
+            {
+              "type": "output",
+              "text": [2]
+            }
+          ],
+          "note": "Benar! Kita metode ini untuk memastikan apakah kita mendapatkan nilai yang kita cari."
+        },
+        {
+          "index": 14,
+          "type": 0,
+          "image": "",
+          "content": "Mari kita lihat aksi ini. Kode ini akan memunculkan index dimana kita menemukan nilai yang sama dengan variabel target.",
+          "code": [
+            "values = [ 5, 3, 4, 7 ]",
+            "target = 4",
+            "for i in range(len(values))",
+            "if values[i] == target:",
+            "print(i)"
+          ],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [
+            {
+              "type": "output",
+              "text": [2]
+            }
+          ],
+          "note": "Benar!, Kita telah berhasil mencari sebuah nilai dari sebuah daftar."
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "Latihan linear search",
+      "total": 11,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "image": "",
+          "content": "Mari menggunakan pengetahuan kita tentang linear search untuk latihan. Kita akan melakukannya dari awal.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "image": "",
+          "content": "Dimulai dengan menulis daftar beserta nilai - nilainya.",
+          "code": ["_ _ _ _"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "numbers"
+            },
+            {
+              "index": 2,
+              "text": "="
+            },
+            {
+              "index": 3,
+              "text": "["
+            },
+            {
+              "index": 4,
+              "text": "]"
+            },
+            {
+              "index": 5,
+              "text": "27,9,4,2,5"
+            }
+          ],
+          "answer": "12354",
+          "output": [],
+          "note": "Benar! Kita akan mencari nilai yang spesifik dari daftar tersebut."
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "image": "",
+          "content": "Tambahkan target",
+          "code": ["numbers = [ 27, 9, 4, 2, 5 ]", "_ _ _"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "="
+            },
+            {
+              "index": 2,
+              "text": "target"
+            },
+            {
+              "index": 3,
+              "text": "2"
+            }
+          ],
+          "answer": "213",
+          "output": [],
+          "note": "Benar! 2 adalah nilai yang akan kita cari dalam daftar."
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "image": "",
+          "content": "Tambahkan kata kunci for yang diikuti tanda : . Kita akan menabhakan spesifikasi dalam loop.",
+          "code": ["numbers = [ 27, 9, 4, 2, 5 ]", "target = 2", "_ _"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ":"
+            },
+            {
+              "index": 2,
+              "text": "for"
+            }
+          ],
+          "answer": "21",
+          "output": [],
+          "note": "Benar! Mari menyelesaikan pernyataan diatas."
+        },
+        {
+          "index": 4,
+          "type": 0,
+          "image": "",
+          "content": "Pernyataan harus diawali dengan i dan diakhiri dengan fungsi range().",
+          "code": ["numbers = [ 27, 9, 4, 2, 5 ]", "target = 2", "for _ _ _:"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "("
+            },
+            {
+              "index": 2,
+              "text": "in"
+            },
+            {
+              "index": 3,
+              "text": "i"
+            },
+            {
+              "index": 4,
+              "text": "reange"
+            },
+            {
+              "index": 5,
+              "text": ")"
+            }
+          ],
+          "answer": "32415",
+          "output": [],
+          "note": "Benar! Pernyataan loop diawali dengan i nda diakhiri dengan range(). Kita hanya perlu menentukan range."
+        },
+        {
+          "index": 5,
+          "type": 0,
+          "image": "",
+          "content": "Gunakan fungsi len() untuk mendapatkan panjang dari variabel numbers.",
+          "code": ["numbers = [ 27, 9, 4, 2, 5 ]", "target = 2", "for i in range(_)"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "numbers"
+            },
+            {
+              "index": 2,
+              "text": "len"
+            },
+            {
+              "index": 3,
+              "text": "("
+            },
+            {
+              "index": 4,
+              "text": ")"
+            }
+          ],
+          "answer": "2314",
+          "output": [],
+          "note": "Benar! len(numbers) akan memberikan kita panjang dari daftar numbers."
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "image": "",
+          "content": "Tambahkan pernyataan setelah tanda : .",
+          "code": ["numbers = [ 27, 9, 4, 2, 5 ]", "target = 2", "for i in range(len(numbers))"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ":"
+            },
+            {
+              "index": 2,
+              "text": "if"
+            }
+          ],
+          "answer": "21",
+          "output": [],
+          "note": "Benar! Pernyataan if akan memeriksa jika target sama dengan nilai."
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "image": "",
+          "content": "Akses posisi nilai i dari numbers dengan menggunakan i sebagai index.",
+          "code": ["numbers = [ 27, 9, 4, 2, 5 ]", "target = 2", "for i in range(len(numbers))", "if ____"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "["
+            },
+            {
+              "index": 2,
+              "text": "numbers"
+            },
+            {
+              "index": 3,
+              "text": "i"
+            },
+            {
+              "index": 4,
+              "text": "]"
+            }
+          ],
+          "answer": "2134",
+          "output": [],
+          "note": "Benar!"
+        },
+        {
+          "index": 8,
+          "type": 0,
+          "image": "",
+          "content": "Cek untuk persamaan.",
+          "code": ["numbers = [ 27, 9, 4, 2, 5 ]", "target = 2", "for i in range(len(numbers))", "if numbers[i] _ :"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "="
+            },
+            {
+              "index": 2,
+              "text": "="
+            }
+          ],
+          "answer": "12",
+          "output": [],
+          "note": "Benar!"
+        },
+        {
+          "index": 9,
+          "type": 1,
+          "image": "",
+          "content": "Bandingkan nilai terkini pada numbers[i] dengan nilai yang kamu cari.",
+          "code": [
+            "numbers = [ 27, 9, 4, 2, 5 ]",
+            "target = 2",
+            "for i in range(len(numbers))",
+            "if numbers[i] == _ :"
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "numbers[target]"
+            },
+            {
+              "index": 2,
+              "text": "target"
+            }
+          ],
+          "answer": "2",
+          "output": [],
+          "note": "Bagus! Pernyataan i akan tereksekusi hanya ketika nilai - nilai yang dibandingkan sama."
+        },
+        {
+          "index": 10,
+          "type": 0,
+          "image": "",
+          "content": "Terkhir, print nilai dari i",
+          "code": [
+            "numbers = [ 27, 9, 4, 2, 5 ]",
+            "target = 2",
+            "for i in range(len(numbers))",
+            "if numbers[i] == target :",
+            " _ "
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "print(i)"
+            }
+          ],
+          "answer": "1",
+          "output": [
+            {
+              "type": "output",
+              "text": "3"
+            }
+          ],
+          "note": "Kita telah berhasil menggunakan llnear search!"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "Ulasan Linear Search",
+      "total": 11,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "image": "",
+          "content": "Mari kita kembali mengingat tentang linear search.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 2,
+          "type": 4,
+          "image": "",
+          "content": "Apa itu daftar? ",
+          "code": [],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Koleksi dari nilai atau data"
+            },
+            {
+              "index": 2,
+              "text": "Sekumpulan dari variabel"
+            }
+          ],
+          "answer": "1",
+          "output": [],
+          "note": "Betul!"
+        },
+        {
+          "index": 3,
+          "type": 4,
+          "image": "",
+          "content": "Bagaimana kita mengakses nilai dari suatu daftar?",
+          "code": [],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Dengan index"
+            },
+            {
+              "index": 2,
+              "text": "Dengan mengetik nilainya"
+            }
+          ],
+          "answer": "1",
+          "output": [],
+          "note": "Benar"
+        },
+        {
+          "index": 4,
+          "type": 4,
+          "image": "",
+          "content": "Mana dari berikut ini yang merupakan index dari daftar.",
+          "code": [],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "1,2,3,4"
+            },
+            {
+              "index": 2,
+              "text": "0,1,2,3"
+            }
+          ],
+          "answer": "2",
+          "output": [],
+          "note": "Benar!"
+        },
+        {
+          "index": 5,
+          "type": 1,
+          "image": "",
+          "content": "Bagaimana kita dapat mengakses nilai kedua dari daftar dalam Python.",
+          "code": [],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "2"
+            },
+            {
+              "index": 2,
+              "text": "1"
+            }
+          ],
+          "answer": "2",
+          "output": [],
+          "note": "Benar!"
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "image": "",
+          "content": "Dapatkah kamu menyatukan kode dibawah ini menjadi loop agar menjadi linear search",
+          "code": ["values = [ 5, 3, 2, 7 ]", "target = 2", "_ _ _ _", "if values[i] == target:", "print(i)"],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ")"
+            },
+            {
+              "index": 2,
+              "text": "len(values)"
+            },
+            {
+              "index": 3,
+              "text": ":"
+            },
+            {
+              "index": 4,
+              "text": "("
+            },
+            {
+              "index": 5,
+              "text": "in"
+            },
+            {
+              "index": 6,
+              "text": "i"
+            },
+            {
+              "index": 7,
+              "text": "range"
+            },
+            {
+              "index": 8,
+              "text": "for"
+            }
+          ],
+          "answer": "86574213",
+          "output": [
+            {
+              "type": "script.python",
+              "text": "2"
+            }
+          ],
+          "note": "Luar biasa!"
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "image": "",
+          "content": "Bagaimana kita dapat memastikan jika kita telah menemukan nilai yang kita cari.",
+          "code": [
+            "values = [ 5, 3, 2, 7 ]",
+            "target = 2",
+            "for i in range(len(values)):",
+            "if values[i] _ target:",
+            "print(i)"
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "<"
+            },
+            {
+              "index": 2,
+              "text": "=="
+            },
+            {
+              "index": 3,
+              "text": "!="
+            }
+          ],
+          "answer": "2",
+          "output": [],
+          "note": "Benar!"
+        },
+        {}
+      ]
+    },
+    {
+      "index": 7,
+      "title": "Buble Sort",
+      "total": 11,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "image": "",
+          "content": "Kita telah mempelajari bagaimana untuk mencari dari sebuah daftar dan menemukan apa yang kita butuhkan. Tapi akankah lebih mudah jika daftar tersebut diurutkan terlebih dahulu ? Sorting / mengurutkan sangat penting dalam ilmu komputer, dan ada banyak algoritma untuk memecahkannya.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "image": "",
+          "content": "Cara paling sederhana untuk mengurutkan adalah dengan buble sort. Cara kerjanya adalah dengan membandingkan dua nilai dan menentukan nilai yang lebih besar. Kemudian kita dapat menukar posisi mereka. Ini seperti bubble / gelembung yang naik keatas didalam soda.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "image": "",
+          "content": "Mari kita lihat contoh sederhana. Kita memulai dengan mengambil dua nilai pertama dan membandingkannya. Karena 5 lebih besar dari 3, kita menukar posisi meraka.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 4,
+          "type": 0,
+          "image": "",
+          "content": "Sesudah proses penukaran pertama, 5 ada di posisi dua. Ingat, posisi kedua memiliki index 1 karena index dimulai dari angka 0.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 5,
+          "type": 0,
+          "image": "",
+          "content": "Mari lanjut ke dua nilai selanjutnya dan bandingkan 5 dan 4. Karena 5 lebih besar, maka kita akan menukar mereka.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "image": "",
+          "content": "Kita akan mendapatkan dua nilai terakhir yang akan dibandingkan. Karena 5 lebih besar dari 2 maka akan kita tukar lagi.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "image": "",
+          "content": "Kita telah menggelembungkan angka 5. Angka yang paling besar ke posisi terakhir dalam sebauh array.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 8,
+          "type": 0,
+          "image": "",
+          "content": "Kita belum mengurutkan daftar secara keseluruhan. Maka kita harus melakukan langkah sebelumnya beberapa kali lagi. Kita melakukannya dari awal lagi pada index ke 0.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "image": "",
+          "content": "Setelah melakukannya yang kedua kali, dua yang nilainya paling besar ada pada posisi yang benar yang berada pada akhir dari daftar tersebut.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 10,
+          "type": 0,
+          "image": "",
+          "content": "Kita hanya perlu melakukan langkah tadi dua kali lagi dan akhirnya kita mendapatkan daftar yang sudah diurutkan. Mudah bukan?",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 11,
+          "type": 0,
+          "image": "",
+          "content": "Ini adlah contoh bagaimana kode dari bubble sort. Apakah anda menyadari bagaimana kita menggunakan fungsi menukar seperti yang kita pelajari dari topik sebelumnya? Jangan khawatir, kita akan memplejari kode yang lebih detail pada bab selanjutnya.",
+          "code": [
+            "list = [ 5, 3, 2, 7 ]",
+            "length = len(list)",
+            "for i in range(length):",
+            "for j in range(length-1):",
+            "if list[j] > list[j+1]:",
+            "_ = list[j]",
+            "list[j] = list[j+1]",
+            "list[j+1] = _",
+            "print(list)"
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "temp"
+            },
+            {
+              "index": 2,
+              "text": "temp"
+            }
+          ],
+          "answer": "12",
+          "output": [],
+          "note": "Benar!"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "Buble Sort 2",
+      "total": 9,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "image": "",
+          "content": "Jika kita melihat lebih detail lagi dari kode untuk bubble sort, kita mungkin menyadari bahwa terdapat dua buah loop. Mari kita bahas.",
+          "code": [],
+          "question": "",
+          "choice": [
+            "list = [ 5, 3, 2, 7 ]",
+            "length = len(list)",
+            "for i in range(length):",
+            "for j in range(length-1):",
+            "if list[j] > list[j+1]:",
+            "temp = list[j]",
+            "list[j] = list[j+1]",
+            "list[j+1] = temp",
+            "print(list)"
+          ],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "image": "",
+          "content": "Loop pertama dijalankan sebanyak panjang dari daftar dikurangi 1. Jangan lupa, kita memulai dari index ke 0",
+          "code": [],
+          "question": "",
+          "choice": ["....", "for i in range(length):", "print(i)"],
+          "answer": "",
+          "output": [
+            {
+              "type": "output",
+              "text": ["0", "1", "2", "3"]
+            }
+          ],
+          "note": "Terlihat seperti sihir? Ini adalah matematika."
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "image": "",
+          "content": "Loop kedua melakukan perbandingan nilai. j adalah index yang digunakan untuk mendapatkan sebuah nilai dan j+1 digunakan untuk mendapatkan nilai disebelahnya.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 4,
+          "type": 0,
+          "image": "",
+          "content": "Mari melihat bagaimana cara kerjanya dalam kode kita.",
+          "code": [
+            "....",
+            "for j in range(length-1):",
+            "if list[_] > list[_]:",
+            "print(str(list[j] + ' > ' + str(list[j+1]))"
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "j+1"
+            },
+            {
+              "index": 2,
+              "text": "j"
+            }
+          ],
+          "answer": "21",
+          "output": [
+            {
+              "type": "script.python",
+              "text": ["4 > 2", "...."]
+            }
+          ],
+          "note": "Benar! j dimulai pertama kali dari 0 dan akan bertambah sesuai dari panjang daftar."
+        },
+        {
+          "index": 5,
+          "type": 0,
+          "image": "",
+          "content": "Karena kita menggunakan j+1, loop kedua tidak perlu sampai nilai terakhir. Artinya loop tersebut hanya sampai length-1 atau 4 - 1 = 3",
+          "code": [
+            "....",
+            "for j in range(length- _):",
+            "if list[j] > list[j+1]:",
+            "print(str(list[j] + ' dan ' + str(list[j+1]))"
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "-1"
+            }
+          ],
+          "answer": "1",
+          "output": [
+            {
+              "type": "script.python",
+              "text": ["5 dan 3", "3 dan 2", "2 dan 7", "...."]
+            }
+          ],
+          "note": "Mungkin terlihat tidak terlalu penting, tapi hal ini membuat algoritma kita lebih efisien dan memastikan tidak ada error."
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "image": "",
+          "content": "Walaupun kita telah melakukan loop sebanyak panjang daftar, kita tidak perlu memeriksa daftar berulang kali karena kita telah menambahkan nilai pada bagian akhir daftar.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "image": "",
+          "content": "Setelah kita mengurutkan elemen pertama, kedua kali kita melakukan loop kita tidak perlu lagi membadingkan sampai nilai terakhir.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 8,
+          "type": 0,
+          "image": "",
+          "content": "Ketika kita melakukan loop ketiga kali, dua elemen trakhir sudah di urutkan. Artinya kita tidak perlu lagi cek dua elemen terakhir.",
+          "code": [],
+          "question": "",
+          "choice": [],
+          "answer": "",
+          "output": [],
+          "note": ""
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "image": "",
+          "content": "Untuk mengoptimalkan bubble sort, yang perlu kita lakukan adalah mengurangi berapa banyak nilai yang telah kita urutkan.",
+          "code": [
+            "list = [ 5, 3, 2, 7 ]",
+            "length = len(list)",
+            "for i in range(length):",
+            "for j in range(length _ -1):",
+            "if list[j] > list[j+1]:",
+            "temp = list[j]",
+            "list[j] = list[j+1]",
+            "list[j+1] = temp",
+            "print(list)"
+          ],
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "- i"
+            }
+          ],
+          "answer": "1",
+          "output": [
+            {
+              "type": "output",
+              "text": ""
+            }
+          ],
+          "note": "Akhirnya kita telah membuat versi optimal dari bubble sort!"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "Praktek Bubble Sort",
+      "total": 17,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "content": "Mari kita praktek-kan pengetahuan kita tentang Bubble Sort. Kita akan melakukannya dengan cara menciptakan versi algorithma yang non-optimized.",
+          "image": "wrench.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Lanjuuut",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "content": "Kita akan mulai dengan membuat List",
+          "code": ["__ __ __"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Niceeee, ini adalah list dimana kita akan mengaplikasikan algoritma sort yang telah kita buat.",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "="
+            },
+            {
+              "index": 2,
+              "text": "list"
+            },
+            {
+              "index": 3,
+              "text": "[3, 7, 1, 4, 9, 2, 5]"
+            }
+          ],
+          "answer": "213"
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "content": "Tambahkan panjang dari list ke dalam variable \"length\"",
+          "image": "",
+          "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "__ __ __"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Nice, kita akan memakai variable ini di dalam looping.",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "length"
+            },
+            {
+              "index": 2,
+              "text": "len(list)"
+            },
+            {
+              "index": 3,
+              "text": "="
+            }
+          ],
+          "answer": "132"
+        },
+        {
+          "index": 4,
+          "type": 0,
+          "content": "Sekarang waktunya membuat For Loop, dengan `i` sebagai Variable Counter dan fungsi `range()` di akhrinya. ",
+          "image": "",
+          "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "__ __ __ __"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Sempurna, Perulangan ini akan menentukan seberapa banyak perulangan yang perlu dieksekusi",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "i"
+            },
+            {
+              "index": 2,
+              "text": "range():"
+            },
+            {
+              "index": 3,
+              "text": "in"
+            },
+            {
+              "index": 4,
+              "text": "for"
+            }
+          ],
+          "answer": "4132"
+        },
+        {
+          "index": 5,
+          "type": 1,
+          "content": "Tambahkan variable length ke dalam fungsi `range()`",
+          "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "for i in range(__):"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Bagus, sekarang For Loop yang kita buat sudah tahu untuk melakukan perulangan berapa kali",
+          "question": "Tanda __ dapat diganti dengan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "length"
+            },
+            {
+              "index": 2,
+              "text": "list"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "content": "Tambahkan Loop yang kedua di dalam loop yang telah kita buat.",
+          "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "for i in range(length):", "  __ __ __ __"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Yapss, Perulangan ini akan berulang didalam perulangan yang pertama",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "for"
+            },
+            {
+              "index": 2,
+              "text": "range(length):"
+            },
+            {
+              "index": 3,
+              "text": "in"
+            },
+            {
+              "index": 4,
+              "text": "j"
+            }
+          ],
+          "answer": "1432"
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "content": "Atur Loop yang kedua untuk men-skip posisi terakhir dari variable list",
+          "image": "",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length __ __):"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Lanjut!",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "1"
+            },
+            {
+              "index": 2,
+              "text": "-"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 8,
+          "type": 0,
+          "content": "Tambahkan If Statement",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "   __ __"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Niceee",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ":"
+            },
+            {
+              "index": 2,
+              "text": "if"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "content": "Tambahkan nilai yang pertama untuk dibandingkan didalam If Statement",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "   if  __ :"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Itu dia.",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "list[j]"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 10,
+          "type": 1,
+          "content": "Tambahkan tanda lebih besar.",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "   if list[j] __ :"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Yeeaaahhhhh",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ">"
+            },
+            {
+              "index": 1,
+              "text": "<"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 11,
+          "type": 1,
+          "content": "Tambahkan nilai ke-2 dari List untuk pembanding, nilai ini adalah nilai selanjutnya dari index `j`",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "   if list[j] > list[__] :"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Ok lanjuut",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "j+1"
+            },
+            {
+              "index": 2,
+              "text": "j-1"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 12,
+          "type": 0,
+          "content": "Tambahkan kode untuk Swapping. Buat variable `temp` dengan nilai dari index `j`",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   __ __ __"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Ok lanjuut",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "list[j+1]"
+            },
+            {
+              "index": 2,
+              "text": "temp"
+            },
+            {
+              "index": 3,
+              "text": "="
+            }
+          ],
+          "answer": "231"
+        },
+        {
+          "index": 13,
+          "type": 0,
+          "content": "Tambahkan nilai posisi dalam variable list dengan indeks j+1 ke posisi dengan indeks j",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   temp = list[j]",
+            "   __ __ __"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Ok Mantap",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "list[j+1]"
+            },
+            {
+              "index": 2,
+              "text": "="
+            },
+            {
+              "index": 3,
+              "text": "list[j]"
+            }
+          ],
+          "answer": "321"
+        },
+        {
+          "index": 14,
+          "type": 0,
+          "content": "Untuk menuju ke tahap selanjutnya, kita mulai dengan menuliskan nama list kemudian tambahkan tanda kurung untuk mengakses nilai dari list.",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   temp = list[j]",
+            "   list[j] = list[j+1]",
+            "   __ __ __"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Ok lanjuut",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "["
+            },
+            {
+              "index": 2,
+              "text": "]"
+            },
+            {
+              "index": 3,
+              "text": "list"
+            }
+          ],
+          "answer": "312"
+        },
+        {
+          "index": 15,
+          "type": 1,
+          "content": "Tambahkan indeks yang benar untuk tahap terakhir swap.",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   temp = list[j]",
+            "   list[j] = list[j+1]",
+            "   list[__]"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Ok Nice",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "j"
+            },
+            {
+              "index": 2,
+              "text": "]+1"
+            }
+          ],
+          "answer": "2"
+        },
+        {
+          "index": 16,
+          "type": 0,
+          "content": "Tetapkan variable temp sebagai nilainya.",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   temp = list[j]",
+            "   list[j] = list[j+1]",
+            "   list[j+1] __ __"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Booom",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "temp"
+            },
+            {
+              "index": 2,
+              "text": "="
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 17,
+          "type": 0,
+          "content": "Terakhir tambahkan perintah untuk print/mencetak untuk melihat kode yang telah kita buat.",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   temp = list[j]",
+            "   list[j] = list[j+1]",
+            "   list[j+1] = temp",
+            "__"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Yaps, Kita telah selesai membuat algoritma Bubble Sort kita sendiri.",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "print(list)"
+            }
+          ],
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "Praktek Bubble Sort",
+      "total": 17,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "content": "Mari kita praktek-kan pengetahuan kita tentang Bubble Sort. Kita akan melakukannya dengan cara menciptakan versi algorithma yang non-optimized.",
+          "image": "wrench.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Lanjuuut",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 2,
+          "type": 0,
+          "content": "Kita akan mulai dengan membuat List",
+          "code": ["__ __ __"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Niceeee, ini adalah list dimana kita akan mengaplikasikan algoritma sort yang telah kita buat.",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "="
+            },
+            {
+              "index": 2,
+              "text": "list"
+            },
+            {
+              "index": 3,
+              "text": "[3, 7, 1, 4, 9, 2, 5]"
+            }
+          ],
+          "answer": "213"
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "content": "Tambahkan panjang dari list ke dalam variable \"length\"",
+          "image": "",
+          "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "__ __ __"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Nice, kita akan memakai variable ini di dalam looping.",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "length"
+            },
+            {
+              "index": 2,
+              "text": "len(list)"
+            },
+            {
+              "index": 3,
+              "text": "="
+            }
+          ],
+          "answer": "132"
+        },
+        {
+          "index": 4,
+          "type": 0,
+          "content": "Sekarang waktunya membuat For Loop, dengan `i` sebagai Variable Counter dan fungsi `range()` di akhrinya. ",
+          "image": "",
+          "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "__ __ __ __"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Sempurna, Perulangan ini akan menentukan seberapa banyak perulangan yang perlu dieksekusi",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "i"
+            },
+            {
+              "index": 2,
+              "text": "range():"
+            },
+            {
+              "index": 3,
+              "text": "in"
+            },
+            {
+              "index": 4,
+              "text": "for"
+            }
+          ],
+          "answer": "4132"
+        },
+        {
+          "index": 5,
+          "type": 1,
+          "content": "Tambahkan variable length ke dalam fungsi `range()`",
+          "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "for i in range(__):"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Bagus, sekarang For Loop yang kita buat sudah tahu untuk melakukan perulangan berapa kali",
+          "question": "Tanda __ dapat diganti dengan ?",
+          "choice": [
+            {
+              "index": 1,
+              "text": "length"
+            },
+            {
+              "index": 2,
+              "text": "list"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "content": "Tambahkan Loop yang kedua di dalam loop yang telah kita buat.",
+          "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "for i in range(length):", "  __ __ __ __"],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Yapss, Perulangan ini akan berulang didalam perulangan yang pertama",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "for"
+            },
+            {
+              "index": 2,
+              "text": "range(length):"
+            },
+            {
+              "index": 3,
+              "text": "in"
+            },
+            {
+              "index": 4,
+              "text": "j"
+            }
+          ],
+          "answer": "1432"
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "content": "Atur Loop yang kedua untuk men-skip posisi terakhir dari variable list",
+          "image": "",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length __ __):"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Lanjut!",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "1"
+            },
+            {
+              "index": 2,
+              "text": "-"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 8,
+          "type": 0,
+          "content": "Tambahkan If Statement",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "   __ __"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Niceee",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ":"
+            },
+            {
+              "index": 2,
+              "text": "if"
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "content": "Tambahkan nilai yang pertama untuk dibandingkan didalam If Statement",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "   if  __ :"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Itu dia.",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "list[j]"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 10,
+          "type": 1,
+          "content": "Tambahkan tanda lebih besar.",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "   if list[j] __ :"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Yeeaaahhhhh",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": ">"
+            },
+            {
+              "index": 1,
+              "text": "<"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 11,
+          "type": 1,
+          "content": "Tambahkan nilai ke-2 dari List untuk pembanding, nilai ini adalah nilai selanjutnya dari index `j`",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "   if list[j] > list[__] :"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Ok lanjuut",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "j+1"
+            },
+            {
+              "index": 2,
+              "text": "j-1"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 12,
+          "type": 0,
+          "content": "Tambahkan kode untuk Swapping. Buat variable `temp` dengan nilai dari index `j`",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   __ __ __"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Ok lanjuut",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "list[j+1]"
+            },
+            {
+              "index": 2,
+              "text": "temp"
+            },
+            {
+              "index": 3,
+              "text": "="
+            }
+          ],
+          "answer": "231"
+        },
+        {
+          "index": 13,
+          "type": 0,
+          "content": "Tambahkan nilai posisi dalam variable list dengan indeks j+1 ke posisi dengan indeks j",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   temp = list[j]",
+            "   __ __ __"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Ok Mantap",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "list[j+1]"
+            },
+            {
+              "index": 2,
+              "text": "="
+            },
+            {
+              "index": 3,
+              "text": "list[j]"
+            }
+          ],
+          "answer": "321"
+        },
+        {
+          "index": 14,
+          "type": 0,
+          "content": "Untuk menuju ke tahap selanjutnya, kita mulai dengan menuliskan nama list kemudian tambahkan tanda kurung untuk mengakses nilai dari list.",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   temp = list[j]",
+            "   list[j] = list[j+1]",
+            "   __ __ __"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Ok lanjuut",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "["
+            },
+            {
+              "index": 2,
+              "text": "]"
+            },
+            {
+              "index": 3,
+              "text": "list"
+            }
+          ],
+          "answer": "312"
+        },
+        {
+          "index": 15,
+          "type": 1,
+          "content": "Tambahkan indeks yang benar untuk tahap terakhir swap.",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   temp = list[j]",
+            "   list[j] = list[j+1]",
+            "   list[__]"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Ok Nice",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "j"
+            },
+            {
+              "index": 2,
+              "text": "]+1"
+            }
+          ],
+          "answer": "2"
+        },
+        {
+          "index": 16,
+          "type": 0,
+          "content": "Tetapkan variable temp sebagai nilainya.",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   temp = list[j]",
+            "   list[j] = list[j+1]",
+            "   list[j+1] __ __"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Booom",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "temp"
+            },
+            {
+              "index": 2,
+              "text": "="
+            }
+          ],
+          "answer": "21"
+        },
+        {
+          "index": 17,
+          "type": 0,
+          "content": "Terakhir tambahkan perintah untuk print/mencetak untuk melihat kode yang telah kita buat.",
+          "code": [
+            "list = [3, 7, 1, 4, 9, 2, 5]",
+            "length = len(list)",
+            "for i in range(length):",
+            " for j in range(length -1):",
+            "  if list[j] > list[j+1] :",
+            "   temp = list[j]",
+            "   list[j] = list[j+1]",
+            "   list[j+1] = temp",
+            "__"
+          ],
+          "output": [
+            {
+              "type": "script.js",
+              "text": "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Yaps, Kita telah selesai membuat algoritma Bubble Sort kita sendiri.",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "print(list)"
+            }
+          ],
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "Latihan Soal Bubble Sort",
+      "total": 5,
+      "data": [
+        {
+          "index": 1,
+          "type": 0,
+          "content": "Ayo kita mengerjakan latihan soal tentang Bubble Sort",
+          "image": "book.png",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Lanjuuut",
+          "question": "",
+          "choice": [],
+          "answer": ""
+        },
+        {
+          "index": 2,
+          "type": 4,
+          "content": "Kenapa kita menyebutnya dengan nama Bubble Sort ?",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Niceeee",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Nilai yang lebih besar bergerak ke bawah daftar terlebih dahulu, seperti halnya gelembung."
+            },
+            {
+              "index": 2,
+              "text": "Nilai yang lebih besar bergerak ke atas daftar terlebih dahulu, seperti halnya gelembung"
+            }
+          ],
+          "answer": "2"
+        },
+        {
+          "index": 3,
+          "type": 4,
+          "content": "Yang mana yang benar tentang Bubble Sort ?",
+          "image": "",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Awesome",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Bubble Sort menukar dua nilai yang berdekatan satu per satu"
+            },
+            {
+              "index": 2,
+              "text": "Bubble Sort menukar dua nilai dari mana saja yang ada di dalam list"
+            }
+          ],
+          "answer": "1"
+        },
+        {
+          "index": 4,
+          "type": 0,
+          "content": "Berapa kali menjalankan perulangan yang pertama di Bubble Sort ?",
+          "image": "",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Sempurna",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "Panjang dari List"
+            },
+            {
+              "index": 2,
+              "text": "Panjang dari List - 1"
+            }
+          ],
+          "answer": "2"
+        },
+        {
+          "index": 5,
+          "type": 4,
+          "content": "Setelah 3 perulangan Bubble Sort, berapa banyak nilai yang pasti ada di bagian akhir dari List ?",
+          "code": [],
+          "output": [
+            {
+              "type": "script.js",
+              "text": ""
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
+          "note": "Bagus Kamu Berhasil",
+          "question": "",
+          "choice": [
+            {
+              "index": 1,
+              "text": "3"
+            },
+            {
+              "index": 2,
+              "text": "1"
+            },
+            {
+              "index": 3,
+              "text": "2"
+            }
+          ],
+          "answer": "1"
+        }
+      ]
     }
   ]
 }
