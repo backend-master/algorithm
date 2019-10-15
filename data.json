@@ -67,10 +67,16 @@
               "text": "__"
             }
           ],
-          "output": {
-            "type": "script.python",
-            "text": ["1.|__|", "2.|soda|", "3.|air|"]
-          },
+          "output": [
+            {
+              "type": "script.python",
+              "text": ["1.|__|", "2.|soda|", "3.|air|"]
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
           "image": "",
           "answer": "21",
           "note": "Bagus!"
