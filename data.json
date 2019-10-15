@@ -16,7 +16,16 @@
           "content": "Mari belajar dari satiuasi nyata. Kita memiliki dua gelas, satu terisi dengan air, dan yang lain dengan soda. Bagaimana cara menukar cairan dalam gelas? Kelihatannya tidak mungkin melakukannya tanpa mencampur keduanya bukan?",
           "image": "water_and_soda.png",
           "code": [],
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Oke lanjut",
           "question": "",
           "choice": [],
@@ -27,10 +36,16 @@
           "type": 0,
           "content": "Jika kita ingin menukar cairan, kita membutuhkan gelas kosong sementara.",
           "code": ["1.|air|", "2. |soda|"],
-          "output": {
-            "type": "script.js",
-            "text": ["1.|air|", "2. |soda|, 3.|__|"]
-          },
+          "output": [
+            {
+              "type": "script.python",
+              "text": ["1.|air|", "2. |soda|, 3.|__|"]
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
           "choice": [{ "index": 1, "text": "3.|__|" }],
           "question": "",
           "note": "Cara dapat menambahkan sebuah konten dari salah satu container ke container lainnya. Kita akan melakukannya terus menerus sampai kita menukar semua cairannya.",
@@ -53,7 +68,7 @@
             }
           ],
           "output": {
-            "type": "script.js",
+            "type": "script.python",
             "text": ["1.|__|", "2.|soda|", "3.|air|"]
           },
           "image": "",
@@ -76,10 +91,16 @@
               "text": "soda"
             }
           ],
-          "output": {
-            "type": "script.js",
-            "text": ["1.|soda|", "2.|__|", "3.|air|"]
-          },
+          "output": [
+            {
+              "type": "script.python",
+              "text": ["1.|soda|", "2.|__|", "3.|air|"]
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
           "image": "",
           "answer": "21",
           "note": "Bagus!"
@@ -94,8 +115,12 @@
           "choice": [{ "index": 1, "text": "__" }, { "index": 2, "text": "air" }],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ["1.|soda|", "2.|air|", "3.|___|"]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "answer": "21",
@@ -122,7 +147,16 @@
               "text": "print(\"2\")"
             }
           ],
-          "output": ["1", "2", "3"],
+          "output": [
+            {
+              "type": "script.python",
+              "text": ["1", "2", "3"]
+            },
+            {
+              "type": "browser",
+              "text": ""
+            }
+          ],
           "answer": "231",
           "note": "Bagus!"
         },
@@ -158,6 +192,10 @@
                 "print('gelas_1 = ' + str(gelas_1))",
                 "print('gelas_2 = ' + str (gelas_2))"
               ]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Jangan khawatir dengan kode diatas. Kita akan mempelajarinya langkah perlangkah dalam bab selanjutnya."
@@ -191,8 +229,12 @@
               "type": "script.python",
               "text": [
                 {
-                  "type": "output",
+                  "type": "script.python",
                   "text": "[1,2,3,4,5,7,9]"
+                },
+                {
+                  "type": "browser",
+                  "text": ""
                 }
               ]
             }
@@ -208,7 +250,16 @@
           "question": "",
           "answer": "",
           "choice": [],
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         }
       ]
@@ -227,7 +278,16 @@
           "question": "",
           "answer": "",
           "choice": [],
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -244,7 +304,16 @@
             }
           ],
           "answer": "1",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Bagus, ini adalah variabel pertama dari dua variabel yang akan kita tukar nilainya."
         },
         {
@@ -269,7 +338,16 @@
             }
           ],
           "answer": "132",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Bagus! Kita akan menukar nilai dari kedua variabel tersebut."
         },
         {
@@ -298,7 +376,16 @@
             }
           ],
           "answer": "3421",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar"
         },
         {
@@ -319,7 +406,16 @@
             }
           ],
           "answer": "21",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar!"
         },
         {
@@ -355,6 +451,10 @@
             {
               "type": "script.python",
               "text": ["var_1 = 5", "var__ 2 = 10", "temp = 5"]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Benar! Sekarang kita dapat melihat perkembangan algoritma kita. Lihat bagaimana var_1 dan temp memilki nilai yang sama yaitu 5."
@@ -385,6 +485,10 @@
             {
               "type": "script.python",
               "text": ["var_1 = 10", "var__ 2 = 10", "temp = 5"]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Bagus! Kita telah berhasil menyamakan nilai dari var_1 dan var_2."
@@ -415,6 +519,10 @@
             {
               "type": "script.python",
               "text": ["var_1 = 10", "var_2 = 5", "temp = 5"]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Benar! Sekarang kita telah berhasil menukar nilai dari dua variabel."
@@ -437,7 +545,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Kerja bagus!"
         }
       ]
@@ -456,7 +573,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -477,7 +603,16 @@
           ],
           "answer": "1",
           "code": [],
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar!"
         },
         {
@@ -498,7 +633,16 @@
             }
           ],
           "answer": "1",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Bagus!"
         },
         {
@@ -519,7 +663,16 @@
             }
           ],
           "answer": "2",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Betul"
         },
         {
@@ -540,7 +693,16 @@
             }
           ],
           "answer": "2",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar!"
         },
         {
@@ -561,7 +723,16 @@
             }
           ],
           "answer": "1",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar!"
         },
         {
@@ -586,7 +757,16 @@
             }
           ],
           "answer": "231",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar!"
         }
       ]
@@ -605,7 +785,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -617,7 +806,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -629,7 +827,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -641,7 +848,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -653,7 +869,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -667,8 +892,12 @@
           "answer": "",
           "output": [
             {
-              "type": "output",
+              "type": "script.python",
               "text": "False"
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Nilainya adalah 5, dan yang kita bandingkan adalah 4. Ini bukan nilai yang kita inginkan."
@@ -684,8 +913,12 @@
           "answer": "",
           "output": [
             {
-              "type": "output",
+              "type": "script.python",
               "text": "False"
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "3 tidak sama dengan 4, mari cari lagi."
@@ -701,8 +934,12 @@
           "answer": "",
           "output": [
             {
-              "type": "output",
+              "type": "script.python",
               "text": "true"
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "4 sama dengan 4. Kita telah mendapatkan pemenangnya."
@@ -733,7 +970,16 @@
             }
           ],
           "answer": "2413",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar! Kita akan menggunakan daftar lebih sering pada algoritma."
         },
         {
@@ -764,8 +1010,12 @@
           "answer": "2431",
           "output": [
             {
-              "type": "output",
+              "type": "script.python",
               "text": [5, 2, 9]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Benar! Lihat bagaimana kita memunculkan nilai - nilai pada posisi 0, 2 dan 4 hanya menggunakan index"
@@ -786,8 +1036,12 @@
           "answer": "1",
           "output": [
             {
-              "type": "output",
+              "type": "script.python",
               "text": [2]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Benar! Kita akan menggunakan loop untuk memeriksa setiap item dalam sebuah daftar."
@@ -808,7 +1062,7 @@
           "answer": "1",
           "output": [
             {
-              "type": "output",
+              "type": "script.python",
               "text": [2]
             }
           ],
@@ -834,8 +1088,12 @@
           "answer": "21",
           "output": [
             {
-              "type": "output",
+              "type": "script.python",
               "text": [2]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Benar! Kita metode ini untuk memastikan apakah kita mendapatkan nilai yang kita cari."
@@ -857,8 +1115,12 @@
           "answer": "",
           "output": [
             {
-              "type": "output",
+              "type": "script.python",
               "text": [2]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Benar!, Kita telah berhasil mencari sebuah nilai dari sebuah daftar."
@@ -879,7 +1141,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -912,7 +1183,16 @@
             }
           ],
           "answer": "12354",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar! Kita akan mencari nilai yang spesifik dari daftar tersebut."
         },
         {
@@ -937,7 +1217,16 @@
             }
           ],
           "answer": "213",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar! 2 adalah nilai yang akan kita cari dalam daftar."
         },
         {
@@ -958,7 +1247,16 @@
             }
           ],
           "answer": "21",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar! Mari menyelesaikan pernyataan diatas."
         },
         {
@@ -991,7 +1289,16 @@
             }
           ],
           "answer": "32415",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar! Pernyataan loop diawali dengan i nda diakhiri dengan range(). Kita hanya perlu menentukan range."
         },
         {
@@ -1020,7 +1327,16 @@
             }
           ],
           "answer": "2314",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar! len(numbers) akan memberikan kita panjang dari daftar numbers."
         },
         {
@@ -1041,7 +1357,16 @@
             }
           ],
           "answer": "21",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar! Pernyataan if akan memeriksa jika target sama dengan nilai."
         },
         {
@@ -1070,7 +1395,16 @@
             }
           ],
           "answer": "2134",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar!"
         },
         {
@@ -1091,7 +1425,16 @@
             }
           ],
           "answer": "12",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar!"
         },
         {
@@ -1117,7 +1460,16 @@
             }
           ],
           "answer": "2",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Bagus! Pernyataan i akan tereksekusi hanya ketika nilai - nilai yang dibandingkan sama."
         },
         {
@@ -1142,8 +1494,12 @@
           "answer": "1",
           "output": [
             {
-              "type": "output",
+              "type": "script.python",
               "text": "3"
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Kita telah berhasil menggunakan llnear search!"
@@ -1164,7 +1520,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1185,7 +1550,16 @@
             }
           ],
           "answer": "1",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Betul!"
         },
         {
@@ -1206,7 +1580,16 @@
             }
           ],
           "answer": "1",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar"
         },
         {
@@ -1227,7 +1610,16 @@
             }
           ],
           "answer": "2",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar!"
         },
         {
@@ -1248,7 +1640,16 @@
             }
           ],
           "answer": "2",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar!"
         },
         {
@@ -1297,6 +1698,10 @@
             {
               "type": "script.python",
               "text": "2"
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Luar biasa!"
@@ -1329,7 +1734,16 @@
             }
           ],
           "answer": "2",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar!"
         },
         {}
@@ -1349,7 +1763,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1361,7 +1784,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1373,7 +1805,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1385,7 +1826,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1397,7 +1847,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1409,7 +1868,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1421,7 +1889,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1433,7 +1910,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1445,7 +1931,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1457,7 +1952,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1488,7 +1992,16 @@
             }
           ],
           "answer": "12",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": "Benar!"
         }
       ]
@@ -1517,7 +2030,16 @@
             "print(list)"
           ],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1531,8 +2053,12 @@
           "answer": "",
           "output": [
             {
-              "type": "output",
+              "type": "script.python",
               "text": ["0", "1", "2", "3"]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Terlihat seperti sihir? Ini adalah matematika."
@@ -1546,7 +2072,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1576,6 +2111,10 @@
             {
               "type": "script.python",
               "text": ["4 > 2", "...."]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Benar! j dimulai pertama kali dari 0 dan akan bertambah sesuai dari panjang daftar."
@@ -1603,6 +2142,10 @@
             {
               "type": "script.python",
               "text": ["5 dan 3", "3 dan 2", "2 dan 7", "...."]
+            },
+            {
+              "type": "browser",
+              "text": ""
             }
           ],
           "note": "Mungkin terlihat tidak terlalu penting, tapi hal ini membuat algoritma kita lebih efisien dan memastikan tidak ada error."
@@ -1616,7 +2159,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1628,7 +2180,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1640,7 +2201,16 @@
           "question": "",
           "choice": [],
           "answer": "",
-          "output": [],
+          "output": [
+            {
+              "type": "browser",
+              "text": ""
+            },
+            {
+              "type": "script.python",
+              "text": ""
+            }
+          ],
           "note": ""
         },
         {
@@ -1669,7 +2239,11 @@
           "answer": "1",
           "output": [
             {
-              "type": "output",
+              "type": "script.python",
+              "text": ""
+            },
+            {
+              "type": "browser",
               "text": ""
             }
           ],
@@ -1690,7 +2264,7 @@
           "code": [],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -1710,7 +2284,7 @@
           "code": ["__ __ __"],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -1744,7 +2318,7 @@
           "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "__ __ __"],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -1778,7 +2352,7 @@
           "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "__ __ __ __"],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -1815,7 +2389,7 @@
           "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "for i in range(__):"],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -1844,7 +2418,7 @@
           "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "for i in range(length):", "  __ __ __ __"],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -1887,7 +2461,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -1922,7 +2496,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -1957,7 +2531,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -1988,7 +2562,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2023,7 +2597,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2059,7 +2633,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2100,7 +2674,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2142,7 +2716,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2184,7 +2758,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2222,7 +2796,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2261,7 +2835,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
             },
             {
@@ -2294,7 +2868,7 @@
           "code": [],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2314,7 +2888,7 @@
           "code": ["__ __ __"],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2348,7 +2922,7 @@
           "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "__ __ __"],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2382,7 +2956,7 @@
           "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "__ __ __ __"],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2419,7 +2993,7 @@
           "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "for i in range(__):"],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2448,7 +3022,7 @@
           "code": ["list = [3, 7, 1, 4, 9, 2, 5]", "length = len(list)", "for i in range(length):", "  __ __ __ __"],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2491,7 +3065,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2526,7 +3100,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2561,7 +3135,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2592,7 +3166,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2627,7 +3201,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2663,7 +3237,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2704,7 +3278,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2746,7 +3320,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2788,7 +3362,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2826,7 +3400,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2865,7 +3439,7 @@
           ],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
             },
             {
@@ -2898,7 +3472,7 @@
           "code": [],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2918,7 +3492,7 @@
           "code": [],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2948,7 +3522,7 @@
           "code": [],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -2978,7 +3552,7 @@
           "code": [],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
@@ -3007,7 +3581,7 @@
           "code": [],
           "output": [
             {
-              "type": "script.js",
+              "type": "script.python",
               "text": ""
             },
             {
